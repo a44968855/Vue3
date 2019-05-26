@@ -1,0 +1,44 @@
+.container {
+  font-family: 'Playfair Display';
+}
+.bg {
+  height: 520px;
+  width: 520px;
+}
+.related_product {
+  display: flex;
+  width: 100%;
+  text-align: center;
+  justify-content: space-between;  
+  .related_card {
+    width: calc((100% / 3) - 40px);
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+    margin-right: 11px;
+    cursor: pointer;
+    &:hover{
+        opacity: .8;
+    }
+    .related_img {
+      width: 100%;
+      height: 350px;
+    }
+  }
+  .related_title{
+      font-size: 18px;
+  }
+  .button{
+      border:1px solid #CA9B52;
+      color:#CA9B52;
+      &:hover{
+          color:white;
+          background-color: #CA9B52;
+      }
+  }
+}
+h5 {
+  text-align: center;
+  padding-top: 50px;
+  border-top:1px  solid rgba(0, 0, 0, 0.08);
+  letter-spacing: 10px;
+}

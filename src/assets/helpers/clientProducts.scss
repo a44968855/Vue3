@@ -1,0 +1,29 @@
+.shop_title {
+  display: flex;
+  margin-top: 40px;
+  .form-group {
+    display: flex;
+    margin-left: auto;
+    select {
+      width: 200px;
+      height: 42px;
+    }
+  }
+}
+.card-item{
+    display:flex;
+    flex-wrap: wrap;
+    // flex-direction:row-reverse;
+    .wrapper{
+        width:calc((100% / 2) - 20px);
+    }
+}
+.list-group{
+  li{
+    cursor: pointer;
+    &:hover{
+      background-color:#ca9b52;
+      color:white;
+    }
+  }
+}
